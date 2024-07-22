@@ -15,8 +15,8 @@ function App() {
 
   return (
       <>
-          <div className="container max-w-max-width p-0 xl:w-sizeboxx">
-            <header className="header bg-cover bg-no-repeat w-sizeboxx h-auto bg-fon">
+          <div className="p-0 w-sizeboxx mx-auto flex flex-col justify-center items-center">
+            <header className="bg-cover bg-no-repeat bg-center  w-auto h-auto bg-fon">
                 <div className="w-sizeboxx d-flex justify-content-center font-medium">
                   <p className="text-white  text-size-text mt-10 ">KONSTRU
                       <img className="img w-text-header-x h-text-header-y inline-block align-middle mb-1"  src={element_text} alt=""/>
@@ -60,7 +60,7 @@ function App() {
                               sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
                           </p>
                       </div>
-                        <div className=" flex space-x-16">
+                        <div className=" flex space-x-20">
                         <h3 className="bg-icon-1 bg-cover h-customs w-custom pt-2.5 pl-2.5 pb-1rem flex flex-col items-start">
                             <span className="">WE</span>
                             <span>PLAN</span>
@@ -125,8 +125,8 @@ function App() {
                         <h4 className="text-white">Newsletter Signup</h4>
                     </div>
                     <div>
-                        <input className="w-64 h-10 outline-none" type="email" placeholder="Email"/>
-                        <button className="w-custom h-10 text-white bg-button">SIGNUP</button>
+                        <input className="w-64 h-10 outline-none" type="email" placeholder="Email" min="5" max="20"/>
+                        <button type="submit" className="w-custom h-10 text-white bg-button">SIGNUP</button>
                     </div>
                 </div>
 
